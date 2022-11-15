@@ -1,0 +1,45 @@
+ .create_post{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    background-color: var(--color-white);
+    padding: 0.4rem var(--card-padding);
+    border-radius: var(--border-radius);
+
+    input[type=text] {
+      justify-self: start;
+      width: 100%;
+      padding-left: 1rem;
+      background: transparent;
+      color: var(--color-dark);
+      margin-right: 1rem;
+      
+    }
+    
+    .btn{
+      display: inline-block;
+      padding: 0.6rem 2rem;
+      font-weight: 500 ;
+      border-radius: var(--border-radius);
+      cursor: pointer;
+      transition: all 300ms ease;
+      font-size: 0.9rem;
+      &:hover{
+        opacity: 0.8;
+      }
+    } 
+  
+    .btn_primary{
+      background-color: var(--color-primary);
+      color: var(--color-white);
+    }
+
+   
+  }
+ 
+
+
+  

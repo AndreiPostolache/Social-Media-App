@@ -1,0 +1,70 @@
+.modalContainer{
+    background: var(--color-white);
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    width: 30rem;
+    height: 27rem;
+
+    .title{
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .reportInput{
+        width: 100%;
+        
+        background-color: var(--color-light);
+        margin-top: 2rem;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: center;
+        margin-top: 2.6rem;
+
+        .btn{
+            display: inline-block;
+            padding: 0.6rem 2rem;
+            font-weight: 500 ;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            transition: all 300ms ease;
+            font-size: 0.9rem;
+            &:hover{
+              opacity: 0.8;
+            }
+          } 
+
+          .btn_primary{
+            background-color: var(--color-primary);
+            color: var(--color-white);
+            &:hover{
+              opacity: 0.8;
+            }
+          }
+        
+
+    }
+
+    .btn{
+      display: inline-block;
+      padding: 0.6rem 2rem;
+      font-weight: 500 ;
+      border-radius: var(--border-radius);
+      cursor: pointer;
+      transition: all 300ms ease;
+      font-size: 0.9rem;
+      &:hover{
+        opacity: 0.8;
+      }
+    } 
+}
+
+
+
+  
+  
+  
+

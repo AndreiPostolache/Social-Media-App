@@ -1,0 +1,136 @@
+.feeds{
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
+
+    .feed{
+      background: var(--color-white);
+      border-radius: var(--card-border-radius);
+      padding: var(--card-padding);
+      margin: 1rem 0;
+      font-size: 0.85rem;
+      line-height: 1.5;
+
+      
+    .profile_photo{
+  width: 2.7rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+
+  
+}
+
+      .head{
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .user{
+        display: flex;
+        gap: 1rem;
+      }
+
+      .photo{
+        border-radius: var(--card-border-radius);
+        
+        margin: 0.7rem 0;
+      
+      }
+
+      .action-button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.4rem;
+        margin: 0.6rem;
+      }
+      
+    }
+
+    .reacts {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+
+      .reactsCount {
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+      }
+    
+      }
+    }
+
+    .actions {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: -7px;
+      margin-top: 7px;
+      padding-left: 0px;
+      padding-top: 0.5rem;
+      border-top: 1px solid black;
+  
+      .reactions {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 40px;
+        margin-bottom: 15px;
+        gap: 0.7rem;
+        &:hover {
+          background-color: lightgrey;
+          border-radius: 10px;
+        }
+
+       
+      }
+    }
+
+    .commentsSection{
+      display: flex;
+      flex-direction: row;
+      margin-top: 1rem;
+      
+      .firstComment{
+        margin-left: 1.5rem;
+       }
+      }
+
+      .enterCommentInput{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 1rem;
+  
+        .commentInput{
+          background:transparent;
+          background-color: var(--color-light);
+          border-radius: var(--border-radius);
+          width: 100%;
+          font-size: 0.9rem;
+          color: var(--color-dark);
+          &::placeholder{
+            color: var(--color-gray);
+            padding-left: 1rem;}
+          
+        }
+    }
+    
+    .blue{
+      color: var(--color-primary);
+    }
+
+   
+  }
+  
+
+  
+  
+  
+
+  
+  
+  
+
+
+

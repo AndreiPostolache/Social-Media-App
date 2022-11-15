@@ -1,0 +1,40 @@
+
+
+main {
+    position: relative;
+    
+  }
+
+.homeContainer{
+    display: grid;
+    grid-template-columns: 22vh auto 20vw;
+    column-gap: 2rem;
+    width: 80%;
+    margin: 0 auto;
+
+    @media screen and (max-width: 1200px) {
+      
+        width: 96%;
+        grid-template-columns: 5rem auto 30vw;
+        gap: 1rem;}
+
+
+    @media screen and (max-width: 992px) {
+          grid-template-columns: 0 auto 5rem;
+
+        }
+
+
+    @media screen and (max-width: 597px) {
+
+          
+            width: 100%;
+          
+        
+        
+        }
+   
+  }
+
+
+ 

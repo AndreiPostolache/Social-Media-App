@@ -1,0 +1,5 @@
+.middle {
+    @media screen and (max-width: 992px) {
+        grid-column: 1/3;
+     }
+}

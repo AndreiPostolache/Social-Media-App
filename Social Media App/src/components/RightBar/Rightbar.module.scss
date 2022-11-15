@@ -1,0 +1,11 @@
+.right{
+  height: max-content;
+  position: sticky;
+  /* top: var(--sticky-top-right); */
+  top: 60px;
+  margin-top: 3rem;
+
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
+}

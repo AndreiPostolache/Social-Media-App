@@ -1,0 +1,44 @@
+
+
+
+.messageList{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+
+    .message{
+
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      align-items: flex-start;
+      &:last-child{
+        margin: 0;
+      }
+
+      &:hover{
+        background-color: var(--color-light);
+        opacity: 0.8;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .profile_photo{
+      width: 2.7rem;
+      aspect-ratio: 1/1;
+       border-radius: 50%;
+
+    
+    }
+
+    p{
+      font-size: 0.8rem;
+    }
+    
+}
+
+.text_muted{
+  color: var(--color-gray)
+};
+
+}

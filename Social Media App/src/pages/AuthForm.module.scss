@@ -1,0 +1,145 @@
+.auth{
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    height: 969px;
+
+    .loginForm{
+        margin-top: 21rem;
+        background: var(--color-white);
+        border-radius: var(--card-border-radius);
+        padding: var(--card-padding);
+        width: 44rem;
+        height: 20rem;
+
+        @media screen and (max-width: 412px){
+            width: 89%;
+            
+          }
+
+          @media screen and (max-width:  567px){
+            width: 83%;
+            
+          }
+
+          @media screen and (max-width:  630px){
+            width: 90%;
+            
+          }
+         
+
+
+        .loginInput{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.8rem;
+        }
+        
+        .title{
+            text-align: center;
+            padding-bottom: 1.5rem;
+        }
+
+        .control{
+            display: flex;
+            flex-direction: row;
+            gap:2rem;
+            margin-left: 4rem;
+            align-items: center;
+
+            .inputField{
+                background-color: var(--color-light);
+                border-radius: var(--border-radius);
+                padding: var(--search-padding);
+                display: flex;
+                align-items: center;
+                width: 36vh;
+
+                @media screen and (max-width: 412px){
+                    margin-right: 3rem;
+                    width: 24vh;
+                    
+                  }
+            
+                  @media screen and (max-width: 360px){
+                    margin-right: 4rem;
+                    width: 22vh;
+                    
+                  }
+
+
+
+            }
+
+            .passwordField{
+                margin-right: 2rem;
+
+                @media screen and (max-width: 412px){
+                    margin-right: 5rem;
+                    width: 24vh;
+                    
+                  }
+                
+                  @media screen and (max-width: 360px){
+                    margin-right: 4rem;
+                    width: 22vh;
+                    
+                  }
+
+                  
+            }
+
+            label{
+                @media screen and (max-width: 412px){
+                   font-size: 13px;
+                    
+                  }
+            }
+           
+        }
+
+        .actions{
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+    }
+   
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.6rem 2rem;
+    font-weight: 500 ;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 300ms ease;
+    font-size: 0.9rem;
+  }
+  
+  .btn:hover{
+    opacity: 0.8;
+  }
+  
+  .btn_primary{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+  
+  .text-bold{
+    font-weight: 500;
+  }
+  
+  .text-muted{
+    color: var(--color-gray)};
+
+
+
+
+
+    
