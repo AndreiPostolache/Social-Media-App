@@ -4,7 +4,7 @@
  ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -32,6 +32,9 @@
 - SCSS
 - MaterialUI
 - Axios
+
+### What I learned
+I've learned how to work with React. With this project I've covered the fundamentals of React, I've learned how to use SCSS and I've used Axios for the LogIn form
 
 ### Continued development
 
