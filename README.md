@@ -1,5 +1,19 @@
 # Social Media App
  Social Media App Project with React (Currently under development)
+ 
+ ## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+
 
 ### Screenshot
 
@@ -14,12 +28,14 @@
 
 ### Built with
 
-- JSX 
-- JavaScript
 - React
+- SCSS
 - MaterialUI
 - Axios
 
+### Continued development
+
+I'm currently working on responsive design and I'm fixing the dark theme bug. Also, I'm implementing the comment section
 
 ## Author
 
